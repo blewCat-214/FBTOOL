@@ -11,7 +11,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-from requests.exceptions import ConnectionError
+from requests.exceptions import ConnectionError // i got an error here saying there was no module named requests.exceptions and idk how yell to ask if i was just doing something wrong
 from mechanize import Browser
 
 #-Setting-#
